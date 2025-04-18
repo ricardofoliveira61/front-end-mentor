@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.rectangle{
+    width: 320px;
+    height: 499px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-top: 16px;
+}
+
+#qr-image{
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+/*
+fix font family type
+*/
+
+h1{
+    src: url("https://fonts.google.com/specimen/Outfit");
+    font-weight: 400,700;
+}
